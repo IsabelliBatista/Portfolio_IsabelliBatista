@@ -1,0 +1,44 @@
+main {
+  background-color: #f8f8f8;
+  padding: 50px 10px;
+}
+.about-conteudo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card-education {
+  background: #fff;
+  padding: 5px 35px;
+  border-radius: 6px;
+  margin: 15px 0;
+}
+.card-experience {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 0 35px;
+  margin: 15px 0;
+  border-radius: 6px;
+}
+.card-experience-icon {
+  width: 50px;
+  height: 50px;
+  background: #ffcc00;
+  border-radius: 31px;
+}
+.card-skills {
+  background: #fff;
+  padding: 5px 50px 5px 25px;
+  margin: 15px 0;
+  border-radius: 6px;
+}
+.card-skills ul {
+  display: flex;
+  flex-direction: column;
+  list-style: disc;
+}
+.card-skills ul li {
+  padding: 5px 0;
+}
