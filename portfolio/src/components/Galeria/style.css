@@ -1,0 +1,17 @@
+.galeria {
+  background-color: #ffcc00;
+  display: flex;
+  flex-direction: column;
+}
+.rows {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0 0 0;
+}
+.rows div {
+  width: 23%;
+  height: 450px;
+  border-radius: 30px;
+  background-color: black;
+}
